@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environments
+genv/
+env/
+.venv/
+
+# Vector databases / embeddings
+vector_store/
+chroma/
+resources/vector_store/
+
+# Environment variables
+.env
+
+# OS files
+.DS_Store
+Thumbs.db

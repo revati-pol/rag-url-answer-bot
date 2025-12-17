@@ -1,0 +1,36 @@
+############################################
+# RAG URL ANSWER BOT
+############################################
+
+# Environment variables
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+env/
+
+# Vector databases (Chroma)
+**/vector_store/
+**/chroma_store/
+**/chroma.sqlite3
+
+# Embedding / model caches
+.cache/
+models/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs & temp
+*.log
+*.tmp
+*.bak
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+.vscode/
